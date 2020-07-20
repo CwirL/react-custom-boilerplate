@@ -1,0 +1,11 @@
+@font-face {
+  font-family: playball;
+  src: url('./assets/fonts/Playball-Regular.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+.hello {
+  color: green;
+  font-family: playball;
+  font-size: 4rem;
+}
