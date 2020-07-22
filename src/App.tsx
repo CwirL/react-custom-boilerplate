@@ -1,15 +1,12 @@
-import React, { useEffect } from 'react';
 import tsIcon from 'assets/images/typescript.png';
+import React from 'react';
+import './style.scss';
 
 const App: React.FC = () => {
-  useEffect(() => {
-    console.log('App did mount');
-  }, []);
-
   return (
     <>
-      <div className="hello">React Boilerplate </div>
-      <img src={tsIcon} alt="" />
+      <div className="title">React Custom </div>
+      <img src={tsIcon} />
     </>
   );
 };

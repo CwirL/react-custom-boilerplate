@@ -1,6 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+// const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
   mode: 'development',
@@ -36,7 +36,7 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: ['.tsx', '.js'],
+    extensions: ['.tsx', '.ts', '.jsx', '.js'],
     modules: ['src', 'node_modules'],
   },
 };
